@@ -1156,7 +1156,7 @@ containing a value of this type.
         public static final int com_facebook_list_section_header_background=0x7f020065;
         public static final int com_facebook_loginbutton_silver=0x7f020066;
         public static final int com_facebook_logo=0x7f020067;
-        public static final int com_facebook_picker_default_separator_color=0x7f020083;
+        public static final int com_facebook_picker_default_separator_color=0x7f020084;
         public static final int com_facebook_picker_item_background=0x7f020068;
         public static final int com_facebook_picker_list_focused=0x7f020069;
         public static final int com_facebook_picker_list_longpressed=0x7f02006a;
@@ -1181,11 +1181,13 @@ containing a value of this type.
         public static final int com_facebook_top_background=0x7f02007d;
         public static final int com_facebook_top_button=0x7f02007e;
         public static final int com_facebook_usersettingsfragment_background_gradient=0x7f02007f;
-        public static final int facebook=0x7f020080;
-        public static final int google=0x7f020081;
-        public static final int ic_launcher=0x7f020082;
+        public static final int down_icon=0x7f020080;
+        public static final int facebook=0x7f020081;
+        public static final int google=0x7f020082;
+        public static final int ic_launcher=0x7f020083;
     }
     public static final class id {
+        public static final int Down_or_icon=0x7f05004a;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050017;
         public static final int action_bar_container=0x7f05001b;
@@ -1257,7 +1259,6 @@ containing a value of this type.
         public static final int never=0x7f05000b;
         public static final int none=0x7f050012;
         public static final int normal=0x7f050001;
-        public static final int or_text=0x7f05004a;
         public static final int picker_subtitle=0x7f05005c;
         public static final int progress_circular=0x7f050036;
         public static final int progress_horizontal=0x7f050037;
