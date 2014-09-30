@@ -1,4 +1,6 @@
-package com.example.androidapp2;
+package com.example.homefoodie;
+
+import com.example.homefoodie.R;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;

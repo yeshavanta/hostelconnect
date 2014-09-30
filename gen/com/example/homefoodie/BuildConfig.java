@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.example.androidapp2;
+package com.example.homefoodie;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;
