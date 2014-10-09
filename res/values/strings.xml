@@ -4,7 +4,22 @@
     <string name="app_name">Homefoodie</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string-array name="year_list">
+        <item>First year </item>
+        <item>Second year</item>
+        <item>Third year </item>
+        <item>Fourth year</item>
+    </string-array>
+    <string-array name="college_hostel_list">
+        <item>Acharya College</item>
+        <item>Dayanand Sagar College</item>
+    </string-array>
+
     <color name="background_loginpage_col">#F2F2F2</color>
+
     <string name="facebook_app_id">373981282759205</string>
+    <string name="title_activity_facebook__login__page">Facebook_Login_Page</string>
+    <string name="title_activity_choosedishes">Choosedishes</string>
 
 </resources>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+   
+        <TextView
+            android:id="@+id/name_text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layoutDirection="ltr"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+    
+    
+          <com.facebook.widget.ProfilePictureView
+                    android:id="@+id/profilePicture"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    facebook:preset_size="normal"/>  
+                 
+        
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/email_text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="EMAIL ID"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <View
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginTop="2dp" 
+           android:layout_width="fill_parent"
+           android:layout_height="1dp"
+           android:background="#000000"/>
+
+        <EditText
+            android:id="@+id/editText_emailId"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="30dp"
+            android:background="@drawable/border_edittextbox"
+            android:inputType="textEmailAddress" >
+
+            <requestFocus />
+        </EditText>
+        
+         <TextView
+            android:id="@+id/phonenumber_text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="PHONE NUMBER"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <View
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginTop="2dp" 
+           android:layout_width="fill_parent"
+           android:layout_height="1dp"
+           android:background="#000000"/>
+
+        <EditText
+            android:id="@+id/editText_phonenumber"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="30dp"
+            android:background="@drawable/border_edittextbox"
+            android:inputType="phone" >
+
+            <requestFocus />
+        </EditText>
+       </LinearLayout>   
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+          <TextView
+            android:id="@+id/dateofbirth_text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="DATE OF BIRTH"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <View
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="2dp" 
+           android:layout_width="fill_parent"
+           android:layout_height="1dp"
+           android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/date_of_birth"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="30dp"
+                android:background="@drawable/border_edittextbox"
+                android:ems="10"
+                android:inputType="date" />
+      
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+         <TextView
+            android:id="@+id/college_text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="COLLEGE / HOSTEL"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <View
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="2dp" 
+           android:layout_width="fill_parent"
+           android:layout_height="1dp"
+           android:background="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/college_or_hostel_id"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" 
+            android:layout_width="match_parent"
+            android:entries="@array/college_hostel_list"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+               <TextView
+            android:id="@+id/college_year_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="YEAR OF STUDY "
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <View
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="2dp" 
+           android:layout_width="fill_parent"
+           android:layout_height="1dp"
+           android:background="#000000"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        
+        <Spinner
+            android:id="@+id/year_of_study_id"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" 
+            android:layout_width="match_parent"
+            android:entries="@array/year_list"
+            android:layout_height="40dp" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       <Button
+          android:layout_marginLeft="5dp"
+          android:layout_marginTop="85dp"
+          android:layout_marginRight="10dp"
+          android:background="#F87217"
+          android:textColor="#FFFFFF"
+          android:id="@+id/Next_button_detail_page"
+          android:layout_width="match_parent"
+          android:drawableLeft="@drawable/right_tick"
+          android:layout_height="35dp"
+          android:textSize="13dp"
+          android:text="NEXT" />
+         
+    </LinearLayout>
+</LinearLayout>
